@@ -33,12 +33,12 @@ app.post("/data", urlencodedParser, (req, resp) => {
             var $ = cheerio.load(res.body);
 
             if (!options.dict) {
-                var elem = $("td[valign=top] + td > p");
+                var elem = $(options.selector); // "td[valign=top] + td > p"
                 fs.writeFileSync("./data.txt", elem.text());
             } else {
                 var obj = {};
 
-                $("p[style]").each(function() {
+                $(options.selector).each(function() { // "p[style]"
                     var strong = $(this).find("strong").text();
                     var sliceShift = 0;
                     var allText = $(this).text();
