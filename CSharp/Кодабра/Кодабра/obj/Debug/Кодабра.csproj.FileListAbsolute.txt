@@ -1,0 +1,10 @@
+C:\Users\klyus\Documents\Visual Studio 2017\Projects\Кодабра\Кодабра\bin\Debug\Кодабра.exe
+C:\Users\klyus\Documents\Visual Studio 2017\Projects\Кодабра\Кодабра\bin\Debug\Кодабра.pdb
+C:\Users\klyus\Documents\Visual Studio 2017\Projects\Кодабра\Кодабра\obj\Debug\Кодабра.csprojResolveAssemblyReference.cache
+C:\Users\klyus\Documents\Visual Studio 2017\Projects\Кодабра\Кодабра\obj\Debug\Кодабра.Form1.resources
+C:\Users\klyus\Documents\Visual Studio 2017\Projects\Кодабра\Кодабра\obj\Debug\Кодабра.Properties.Resources.resources
+C:\Users\klyus\Documents\Visual Studio 2017\Projects\Кодабра\Кодабра\obj\Debug\Кодабра.csproj.GenerateResource.Cache
+C:\Users\klyus\Documents\Visual Studio 2017\Projects\Кодабра\Кодабра\obj\Debug\Кодабра.csproj.CoreCompileInputs.cache
+C:\Users\klyus\Documents\Visual Studio 2017\Projects\Кодабра\Кодабра\obj\Debug\Кодабра.exe
+C:\Users\klyus\Documents\Visual Studio 2017\Projects\Кодабра\Кодабра\obj\Debug\Кодабра.pdb
+C:\Users\klyus\Documents\Visual Studio 2017\Projects\Кодабра\Кодабра\obj\Debug\Кодабра.MainForm.resources
