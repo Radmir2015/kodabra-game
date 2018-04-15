@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Kodabra</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm"></div>
+			<div class="col-sm text-center form">
+				<form method="POST" action="/data">
+					<h2>Введите адрес сайта:</h2>
+					<label for="url">Адрес сайта:</label>
+					<input type="text" class="form-control" id="url" name="url" placeholder="https://...">
+					<label for="selector">Токен поиска:</label>
+					<input type="text" class="form-control" id="selector" name="selector" placeholder="*">
+					<input type="checkbox" class="form-check-input" id="check" name="dict">
+					<label class="form-check-label" for="check">Термины</label>
+					<br>
+					<button type=submit class="btn btn-primary">Отправить</button>
+				</form>
+			</div>
+			<div class="col-sm"></div>
+		</div>
+	</div>
+	<style type="text/css">
+		body {
+			background-color: #ddd;
+		}
+
+		.form {
+			background-color: #eee;
+			margin: 5rem;
+			padding: 2rem;
+			border-radius: 5%;
+		}
+
+		h5 {
+			padding: 1rem;
+		}
+
+		button {
+			margin-top: 1rem;
+		}
+	</style>
+</body>
+</html>
