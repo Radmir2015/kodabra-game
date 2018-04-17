@@ -46,25 +46,24 @@
             // textBox1
             // 
             this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(958, 119);
+            this.textBox1.Location = new System.Drawing.Point(958, 166);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(376, 26);
             this.textBox1.TabIndex = 1;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(954, 41);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(397, 20);
+            this.label1.Size = new System.Drawing.Size(399, 122);
             this.label1.TabIndex = 2;
             this.label1.Text = "Для получения вопроса пройдите к золотой метке";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(978, 198);
+            this.button1.Location = new System.Drawing.Point(958, 227);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 43);
+            this.button1.Size = new System.Drawing.Size(376, 43);
             this.button1.TabIndex = 3;
             this.button1.Text = "Ввод";
             this.button1.UseVisualStyleBackColor = true;
@@ -81,6 +80,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

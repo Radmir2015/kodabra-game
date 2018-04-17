@@ -8,7 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.IO;
 using System.Runtime.Serialization;
-using System.Runtime.Serialization.Json;
+using Newtonsoft.Json;
 
 namespace Кодабра
 {
@@ -17,7 +17,6 @@ namespace Кодабра
         [DataContract]
         public class DictElem
         {
-            public String key;
             [DataMember]
             public String value;
         }
@@ -124,9 +123,10 @@ namespace Кодабра
 
         private void CheckAnswer()
         {
-            if (answer.Equals(textBox1.Text))
+            if (answer.ToLower().Trim().Equals(textBox1.Text.ToLower().Trim()))
             {
                 MessageBox.Show("Верно! Проход открыт");
+                textBox1.Text = "";
                 player.Key = true;
             }
             else
@@ -170,17 +170,16 @@ namespace Кодабра
         public List<byte[]> doors;
         private List<byte[]> quests;
         private Dictionary<String, String> dict;
-        DataContractJsonSerializer jsonSerializer;
 
         public void LoadDict()
         {
-            jsonSerializer = new DataContractJsonSerializer(typeof(DictElem));
-            using (FileStream fs = new FileStream("dict.json", FileMode.OpenOrCreate))
+            //jsonSerializer = new DataContractJsonSerializer(typeof(DictElem));
+            using (StreamReader fs = new StreamReader(Path.Combine(Directory.GetCurrentDirectory(), @"..\..\..\..\..\Web\dict.json")))
             {
-                DictElem[] de = (DictElem[])jsonSerializer.ReadObject(fs);
-
-                foreach (DictElem e in de)
-                    dict.Add(e.key, e.value);
+                String s = fs.ReadToEnd();
+                dict = JsonConvert.DeserializeObject<Dictionary<String, String>>(s);
+                //DictElem de = (DictElem)jsonSerializer.ReadObject(fs);
+                //dict.Add(de.key, de.value);
             }
         }
 

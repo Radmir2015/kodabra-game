@@ -8,3 +8,16 @@ C:\Users\klyus\Documents\Visual Studio 2017\Projects\Кодабра\Кодабр
 C:\Users\klyus\Documents\Visual Studio 2017\Projects\Кодабра\Кодабра\obj\Debug\Кодабра.exe
 C:\Users\klyus\Documents\Visual Studio 2017\Projects\Кодабра\Кодабра\obj\Debug\Кодабра.pdb
 C:\Users\klyus\Documents\Visual Studio 2017\Projects\Кодабра\Кодабра\obj\Debug\Кодабра.MainForm.resources
+C:\Users\klyus\Desktop\PandaHack\CSharp\Кодабра\Кодабра\bin\Debug\Кодабра.exe.config
+C:\Users\klyus\Desktop\PandaHack\CSharp\Кодабра\Кодабра\bin\Debug\Кодабра.exe
+C:\Users\klyus\Desktop\PandaHack\CSharp\Кодабра\Кодабра\bin\Debug\Кодабра.pdb
+C:\Users\klyus\Desktop\PandaHack\CSharp\Кодабра\Кодабра\obj\Debug\Кодабра.csprojResolveAssemblyReference.cache
+C:\Users\klyus\Desktop\PandaHack\CSharp\Кодабра\Кодабра\obj\Debug\Кодабра.Form1.resources
+C:\Users\klyus\Desktop\PandaHack\CSharp\Кодабра\Кодабра\obj\Debug\Кодабра.MainForm.resources
+C:\Users\klyus\Desktop\PandaHack\CSharp\Кодабра\Кодабра\obj\Debug\Кодабра.Properties.Resources.resources
+C:\Users\klyus\Desktop\PandaHack\CSharp\Кодабра\Кодабра\obj\Debug\Кодабра.csproj.GenerateResource.Cache
+C:\Users\klyus\Desktop\PandaHack\CSharp\Кодабра\Кодабра\obj\Debug\Кодабра.csproj.CoreCompileInputs.cache
+C:\Users\klyus\Desktop\PandaHack\CSharp\Кодабра\Кодабра\obj\Debug\Кодабра.exe
+C:\Users\klyus\Desktop\PandaHack\CSharp\Кодабра\Кодабра\obj\Debug\Кодабра.pdb
+C:\Users\klyus\Desktop\PandaHack\CSharp\Кодабра\Кодабра\bin\Debug\Newtonsoft.Json.dll
+C:\Users\klyus\Desktop\PandaHack\CSharp\Кодабра\Кодабра\bin\Debug\Newtonsoft.Json.xml
